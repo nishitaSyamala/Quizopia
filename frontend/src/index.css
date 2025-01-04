@@ -1,0 +1,192 @@
+
+/* styles for sidebar component */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #dee2e6;
+  padding: 1rem;
+}
+
+.sidebar a {
+  color: #212529;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: background-color 0.2s;
+}
+
+.sidebar a:hover {
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+.main-content {
+  padding: 1rem;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  background-color: #dddddd;
+  border-radius: 5px;
+}
+
+
+/* quiz request styles */
+
+.quiz-requests {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.quiz-request-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.quiz-request-card:hover {
+  transform: scale(1.02);
+}
+
+.quiz-request-card .btn {
+  width: 48%; /* Equal width for buttons */
+}
+
+
+/* Previous quiz list table styles */
+
+.previous-quizzes-container {
+  background-color: #f9f9f9;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.previous-quizzes-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.btn-light {
+  color: #555;
+  background-color: #fff;
+  border-color: #ddd;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.table {
+  font-size: 0.95rem;
+  background-color: #fff;
+}
+
+.table thead {
+  background-color: #f1f1f1;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f7f7f7;
+}
+
+.table-bordered {
+  border-color: #ddd;
+}
+
+
+/* Teacher view all list table styles */
+.teachers-list-container {
+  background-color: #f9f9f9;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.teachers-list-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.btn-light {
+  color: #555;
+  background-color: #fff;
+  border-color: #ddd;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.btn-light:hover {
+  background-color: #f1f1f1;
+}
+
+.table {
+  font-size: 0.95rem;
+  background-color: #fff;
+}
+
+.table thead {
+  background-color: #f1f1f1;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f7f7f7;
+}
+
+.table-bordered {
+  border-color: #ddd;
+}
+
+/* styles for notification */
+.notifications-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.notification-card {
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification-card h5 {
+  font-weight: bold;
+}
+
+.create-notification-form label {
+  font-weight: 500;
+}
+
+.create-notification-form .form-control {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.create-notification-form .btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+/* React quill styles for quiz creation */
+.ql-container.ql-snow{
+  height: 150px !important;
+}
