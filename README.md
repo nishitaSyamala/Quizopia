@@ -47,8 +47,8 @@ Quizopia is a full-stack Learning Management System (LMS) built using the **MERN
 
 
 
-![Screenshot (1)](https://github.com/user-attachments/assets/906715e9-be3e-4358-891c-c1b86e78cc60)
-=
+![Alt Text](https://github.com/user-attachments/assets/d9466fab-e552-4ca8-91f6-e3f5af411a53)
+
 
 
 
