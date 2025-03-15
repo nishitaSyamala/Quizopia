@@ -39,16 +39,9 @@ Quizopia is a full-stack Learning Management System (LMS) built using the **MERN
 - **MongoDB** (Database)
 - **Mongoose** (ODM for MongoDB)
 
----
-
-## Project Structure
-
-```
 
 
-
-![Alt Text](https://github.com/user-attachments/assets/d9466fab-e552-4ca8-91f6-e3f5af411a53)
-
+![Screenshot 2025-03-15 192750](https://github.com/user-attachments/assets/8ec5821c-f891-43fd-9645-b82403b51be0)
 
 
 
